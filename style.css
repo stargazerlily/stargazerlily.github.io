@@ -28,6 +28,9 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+#header-image {
+  text-align: center;
+}
 #header-nav {
   display: block;
   float: right;
