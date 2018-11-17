@@ -29,13 +29,15 @@ body {
   font-weight: bold;
 }
 #header-image {
-  text-align: center;
+  display: inline-block;
+  padding-left: 150px;
 }
 #header-nav {
   display: block;
   float: right;
   margin-top: 0;
 }
+
 #header-nav li {
   display: inline;
   padding-left: 20px;
