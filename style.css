@@ -5,7 +5,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-  background-color: #00cd6f;
   color: #ffffff;
   margin: 0;
 
@@ -48,6 +47,8 @@ nav li {
   padding-left: 20px;
 }
 .container {
+  display: block;
+  background-color: #00cd6f;
   max-width: 1000px;
   margin: 0 auto;
 }
