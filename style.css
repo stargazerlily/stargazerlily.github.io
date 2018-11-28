@@ -2,13 +2,13 @@
   --titleTextColor: white;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple':400,700);
 
 body {
   color: #ffffff;
   margin: 0;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Homemade Apple', sans-serif;
 }
 header {
   background-color: #1abc9c;
