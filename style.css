@@ -2,16 +2,13 @@
   --titleTextColor: white;
 }
 
-@font-face {
-    font-family: 'Indie Flower';
-    src: url('https://fonts.googleapis.com/css?family=Indie+Flower':400,700);
-}
-
+@import url('https://fonts.googleapis.com/css?family=Gaegu':400,700);
+  
 body {
   color: #ffffff;
   margin: 0;
 
-  font-family: 'Indie Flower', sans-serif;
+  font-family: 'Gaegu', sans-serif;
 }
 header {
   background-color: #1abc9c;
