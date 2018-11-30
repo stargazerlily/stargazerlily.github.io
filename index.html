@@ -3,25 +3,29 @@
 
 <head>
   <title>little frog</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style_index.css">
 </head>
 
-<body style="background-color: #1abc9c;">
+<body onload="describeMe();">
+  <header>
+      <a id="header-title" href="index.html">ranunculus</a>
+  </header>
   <main>
-    <div class="container" style="margin: 10em auto; padding: .01em; background-color: #00cd6f;  border-radius: 40em / 20em;">
-      <div style="width: 0; height: 0; border-bottom: 8em solid #1abc9c; border-left: 8em solid transparent; display: inline;">
+    <div class="lpadcontainer">
+      <div id="notch">
       </div>
       <div class="about">
         <div class="about-author">
           <img src="swink.gif" title="spook">
         </div>
-        <h1 class="about-title" style="font-weight: bold;">i'm working on it, promise.</h1>
+        <h1 class="about-title">i'm working on it, promise.</h1>
         <div class="about-content">
-          <p>welcome to the homepage of florist, artist, and forest friend amelie letierce.  this website is a work in progress that i hope to soon establish as a working portfolio and place to have a bit of fun.</p>
+          <p>welcome to the homepage of florist, artist, and <span id=tDescriptor></span> amelie letierce.  this website is a work in progress that i hope to soon establish as a working portfolio and place to have a bit of fun.</p>
         </div>
       </div>
     </div>
   </main>
+  <script src="describe_me.js"></script>
 </body>
 
 </html>
