@@ -36,7 +36,6 @@ header a:hover {
 }
 nav {
   display: block;
-  float: right;
   margin-top: 0;
 }
 
@@ -110,9 +109,9 @@ footer p {
   vertical-align: top;
 }
 a {
-  color: #1abc9c;
+  color: var(--titleTColor);
   text-decoration: none;
 }
 a:hover {
-  color: #f6A623;
+  color: var(--hoverTColor);
 }
