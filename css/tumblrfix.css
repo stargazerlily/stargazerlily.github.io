@@ -1,0 +1,7 @@
+body > iframe:first-child {
+  display: none;
+}
+
+.tmblr-iframe-pushdown {
+    padding-top: 0px !important;
+}
