@@ -1,0 +1,37 @@
+.container {
+  /* background-color: #fff; */
+  display: block;
+  margin: 0, auto;
+  /* max-width: 120px; */
+  padding: 0 1rem;
+}
+
+.tumblr_photo {
+  max-width: 100%;
+}
+
+.tumblr_photo_post {
+  margin: 1rem;
+}
+
+.tumblr_photo_post img {
+  display: block;
+  border-radius: 25%;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  .tumblr_photo_post {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 100px) {
+  .tumblr_photo_post {
+    width:calc(calc(100% / 3) - 2rem);
+  }
+}

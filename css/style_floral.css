@@ -1,0 +1,152 @@
+
+.tumblr_posts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.tumblr_post {
+  /* background-color: var(--lpadgreen);
+  max-width: 1000px;
+  margin: 3em auto;
+  padding: 7em;
+  border-radius: 40em / 20em; */
+}
+
+body {
+  background-color: #1abc9c;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Gaegu', sans-serif;
+}
+
+header {
+  height: 5em, auto;
+  line-height: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+header a {
+  background-color: var(--lpadgreen);
+  color: var(--titleTColor);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 40em / 20em;
+  padding: .1em;
+}
+
+header a:hover {
+  color: var(--hoverTColor);
+}
+
+#header-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav {
+  background-color: var(--lpadgreen);
+  /* margin-top: 0; */
+  border-radius: 40em / 20em
+}
+
+nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #006400;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4 {
+  color: #006400;
+}
+
+p {
+  line-height: 1.5;
+  color: var(--titleTColor);
+}
+
+footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer h4 {
+  color: var(--titleTColor);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+footer p {
+  color: var(--titleTColor);
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f6A623;
+}
+
+.button {
+  background-color: var(--lpadgreen);
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+
+.hideMe {
+  display: none;
+}
