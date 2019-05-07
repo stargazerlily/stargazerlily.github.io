@@ -12,6 +12,8 @@ header {
   height: 5em, auto;
   line-height: 5em;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
@@ -34,7 +36,6 @@ header a:hover {
 }
 nav {
   display: block;
-  float: right;
   margin-top: 0;
 }
 
@@ -108,9 +109,9 @@ footer p {
   vertical-align: top;
 }
 a {
-  color: #1abc9c;
+  color: var(--titleTColor);
   text-decoration: none;
 }
 a:hover {
-  color: #f6A623;
+  color: var(--hoverTColor);
 }
