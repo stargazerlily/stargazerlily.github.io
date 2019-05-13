@@ -1,4 +1,8 @@
 
+.tumblr_posts {
+
+}
+
 .tumblr_post {
   display: flex;
   flex-direction: column;

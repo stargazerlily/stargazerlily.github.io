@@ -1,5 +1,5 @@
-body > iframe:first-child {
-  display: none;
+body > .tmblr-iframe {
+  display: none !important;
 }
 
 .tmblr-iframe-pushdown {
