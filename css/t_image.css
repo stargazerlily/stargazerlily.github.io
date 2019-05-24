@@ -6,6 +6,7 @@
 .tumblr_photo {
   border-radius: 25%;
   max-width: 100%;
+  box-shadow: 0px 0px 0px 4px var(--navblack); 
 }
 
 .tumblr_posts {

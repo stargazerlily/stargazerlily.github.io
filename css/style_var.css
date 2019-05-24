@@ -5,4 +5,13 @@
   --lpadgreen: #00cd6f;
   --waterblue: #1abc9c;
   --froggygreen: #006400;
+  --navblack: #333;
+}
+
+h1::selection, h2::selection, h3::selection, h4::selection {
+  background-color: var(--navblack);
+}
+
+p::selection {
+  background-color: var(--froggygreen);
 }
