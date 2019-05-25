@@ -1,0 +1,350 @@
+body {
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  color: #ffffff;
+  background-color: #1abc9c;
+  font-family: 'Gaegu', sans-serif;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--lpadgreen);
+}
+
+#header-title {
+  /* margin-top: .5em; */
+  margin-bottom: 0;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+
+
+header .bannercontainer:first-of-type {
+  transform: scaleX(-1);
+}
+
+.bannercontainer {
+  position: relative;
+}
+
+.bannerimgbg {
+  display: block;
+  position: relative;
+  background-color: var(--lpadgreen);
+}
+
+.bannercontainer img {
+    .position: absolute;
+}
+
+.bannercontainer div, .bannercontainer img {
+
+  top: 0;
+  left: 0;
+}
+
+header a {
+  padding: .1em;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  /* background-color: var(--lpadgreen); */
+  color: var(--titleTColor);
+  border-radius: 40em / 30em;
+}
+
+header a:hover {
+  color: var(--hoverTColor);
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vh;
+  background-color: var(--lpadgreen);
+}
+
+nav {
+  border-radius: 40em / 20em
+}
+
+nav a, nav button {
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+#pageheader {
+  padding-left: 10px;
+}
+
+.gallerynavitems {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-basis: 80vw;
+}
+
+.gallerynavbar {
+  position: sticky;
+  top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  background-color: var(--navblack);
+}
+
+.gallerynavbar h1:first-child {
+  flex-grow: .1;
+  font-size: 2.5em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Links inside the navbar */
+.gallerynavbar a {
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  display: block;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  padding: 14px 16px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  /* Important for vertical align on mobile phones */
+}
+
+.gallerynavbar h1:hover {
+  color: white;
+}
+
+.gallerynavbar a:hover, .dropdown:hover .dropbtn {
+  color: var(--hoverTColor);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  position: absolute;
+  z-index: 5;
+  display: none;
+  background-color: transparent;
+}
+
+.dropdown a:first-child {
+  border-top-left-radius: 40em;
+  border-top-right-radius: 40em;
+}
+
+.dropdown a:last-child {
+  border-bottom-right-radius: 40em;
+  border-bottom-left-radius: 40em;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  display: block;
+  float: none;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--lpadgreen);
+}
+
+/* Add a grey background color to dropdown links on hover */
+.colors a:hover {
+  filter: brightness(125%);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#menured {
+  color: darkred;
+  background-color: red;
+}
+
+#menuorange {
+  color: orangered;
+  background-color: orange;
+}
+
+#menuyellow {
+  color: darkorange;
+  background-color: yellow;
+}
+
+#menugreen {
+  color: darkgreen;
+  background-color: lawngreen;
+}
+
+#menublue {
+  color: blue;
+  background-color: cornflowerblue;
+}
+
+#menupurple {
+  color: indigo;
+  background-color: blueviolet;
+}
+
+#menupink {
+  color: deeppink;
+  background-color: pink;
+}
+
+#menuneutral {
+  color: rosybrown;
+  background-color: cornsilk;
+}
+
+#menuwhite {
+  color: black;
+  background-color: white;
+}
+
+h1, h2, h3, h4 {
+  color: var(--hoverTColor);
+}
+
+p {
+  color: var(--titleTColor);
+  line-height: 1.5;
+}
+
+#spacer {
+  width: 100%;
+  height: 10em;
+}
+
+footer {
+  position: absolute;
+  z-index: -5;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1em 0;
+  background-color: #2f2f2f;
+}
+
+footer h4 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--titleTColor);
+}
+
+footer p {
+  color: var(--titleTColor);
+}
+
+.column {
+  display: inline-block;
+  min-width: 300px;
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+  color: #1abc9c;
+}
+
+footer a:hover {
+  color: #f6A623;
+}
+
+.button {
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background-color: var(--lpadgreen);
+  font-size: 16px;
+}
+
+.hideMe {
+  display: none;
+}
+:root {
+  --titleTColor: white;
+  --hoverTColor: #ff9c8c;
+  /* --hoverTColor: #ff9e95; */
+  --lpadgreen: #00cd6f;
+  --waterblue: #1abc9c;
+  --froggygreen: #006400;
+  --navblack: #333;
+}
+
+h1::selection, h2::selection, h3::selection, h4::selection {
+  background-color: var(--navblack);
+}
+
+p::selection {
+  background-color: var(--froggygreen);
+}
+
+.tumblr_photo_post {
+  margin: 1rem;
+}
+
+.tumblr_photo {
+  border-radius: 25%;
+  max-width: 100%;
+  box-shadow: 0px 0px 0px 4px var(--navblack); 
+}
+
+.tumblr_posts {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 600px) {
+  .tumblr_posts {
+    display: flex;
+    flex-flow: wrap;
+  }
+}
+body > .tmblr-iframe {
+  display: none !important;
+}
+
+.tmblr-iframe-pushdown {
+    padding-top: 0px !important;
+}
