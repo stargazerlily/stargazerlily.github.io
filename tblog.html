@@ -3,31 +3,20 @@
 
 <head>
   <title>little frog</title>
-  <link rel="stylesheet" type="text/css" href="css/style_var.css">
-  <link rel="stylesheet" type="text/css" href="css/style_tblog.css">
-  <link rel="stylesheet" type="text/css" href="css/tumblrfix.css">
-<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet"></head>
+  <link rel="stylesheet" type="text/css" href="css/blog_master.css">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+</head>
 
-<body>
+<body onload="describeMe();">
   <header>
-    <div class="lpadheader">
-      <a id="header-title" href="index.html">ranunculus</a>
-      <div id="header-image">
-        <a href="index.html">
-          <img src="img/S2.gif" title="S">
-          <img src="img/O2.gif" title="O">
-          <img src="img/G2.gif" title="G">
-          <img src="img/A2.gif" title="A">
-          <img src="img/Y2.gif" title="Y">
-      </div>
-      <nav>
-        <ul>
-          <li><a href="floral.html">floral</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
+      <nav class="lPad">
+        <a id="header-title" href="index.html">ranunculus</a>
+        <div>
+          <a href="floral.html">floral</a>
+          <a href="about.html">about</a>
+          <a href="contact.html">contact</a>
+        </div>
       </nav>
-    </div>
   </header>
   <main>
     <script type="text/javascript" src="https://ranafrog.tumblr.com/js/?tag=blog&num=50"></script>
@@ -43,11 +32,12 @@
         </p>
       </div>
       <div class="column">
-        <h4>short story</h4>
-        <p>ribbit</p>
+        <h4>bio</h4>
+        <p>amelie letierce is a florist, artist, and <span id=tDescriptor></span> with a passion for sustainable living and all things botanical.</p>
       </div>
     </div>
   </footer>
+  <script src="js/describe_me.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,12 @@
+
+h1::selection, h2::selection, h3::selection, h4::selection {
+  background-color: var(--navblack);
+}
+
+p {
+  padding: .5em;
+}
+
+p::selection {
+  background-color: var(--froggygreen);
+}

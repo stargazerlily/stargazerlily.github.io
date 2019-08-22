@@ -1,2 +1,2 @@
 import floral_tagger
-import floral_css_compiler
+import css_compiler

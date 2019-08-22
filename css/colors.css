@@ -1,0 +1,18 @@
+:root {
+  --titleTColor: white;
+  --hoverTColor: #ff9c8c;
+  /* --hoverTColor: #ff9e95; */
+  --chillPink: #ffeee0;
+  --lpadgreen: #00cd6f;
+  --waterblue: #1abc9c;
+  --waterblue2: #2aafd5;
+  --waterblue3: #46cff6;
+  --froggygreen: #006400;
+  --navblack: #333;
+
+}
+
+@keyframes waves {
+  from {background-color: var(--waterblue3);}
+  to {background-color: var(--chillPink);}
+}

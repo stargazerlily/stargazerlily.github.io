@@ -1,5 +1,13 @@
 import shutil
 
+
+# shutil.copy("floral/floral_template.html", "floral.html")
+# with open("floral.html") as f:
+#     newText=f.read().replace('floral/', "")
+#     newText=f.read().replace('../', "")
+# with open("floral.html", "w") as f:
+#     f.write(newText)
+
 floraltags = {
     "design": "designs",
     "bouquet": "bouquets",
