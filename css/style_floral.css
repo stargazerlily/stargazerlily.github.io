@@ -4,8 +4,10 @@ body {
   width: 100%;
   margin: 0;
   color: #ffffff;
-  background-color: #1abc9c;
+  background-image: url(../img/Ocean_edit.gif);
+  background-color: var(--waterblue3);
   font-family: 'Gaegu', sans-serif;
+  animation: waves 5s ease-in-out infinite alternate;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -31,18 +33,26 @@ header {
 
 
 
-header .bannercontainer:first-of-type {
+header .bannercontainer:first-of-type>img {
   transform: scaleX(-1);
 }
 
 .bannercontainer {
   position: relative;
+  z-index: 2;
 }
 
 .bannerimgbg {
   display: block;
-  position: relative;
+  position: absolute;
+  margin-left: 1em;
+  top: 4.5em;
+  width: 35em;
+  height: 5em;
+  z-index: -1;
+  border-radius: 50em / 20em;
   background-color: var(--lpadgreen);
+  box-shadow: 0.5em 0.5em 0.1em #4297bc;
 }
 
 .bannercontainer img {
@@ -51,7 +61,7 @@ header .bannercontainer:first-of-type {
 
 .bannercontainer div, .bannercontainer img {
 
-  top: 0;
+  /* top: 0; */
   left: 0;
 }
 
@@ -75,6 +85,7 @@ header nav {
   justify-content: center;
   width: 50vh;
   background-color: var(--lpadgreen);
+  box-shadow: 0.5em 0.5em 0.1em #4297bc;
 }
 
 nav {
@@ -270,7 +281,7 @@ footer p {
 
 .column {
   display: inline-block;
-  min-width: 300px;
+  min-width: 150px;
   vertical-align: top;
 }
 

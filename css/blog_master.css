@@ -186,3 +186,51 @@ a {
 a:hover {
   color: #f6A623;
 }
+:root {
+  --titleTColor: white;
+  --hoverTColor: #ff9c8c;
+  /* --hoverTColor: #ff9e95; */
+  --chillPink: #ffeee0;
+  --lpadgreen: #00cd6f;
+  --waterblue: #1abc9c;
+  --waterblue2: #2aafd5;
+  --waterblue3: #46cff6;
+  --froggygreen: #006400;
+  --navblack: #333;
+
+}
+
+@keyframes waves {
+  from {background-color: var(--waterblue3);}
+  to {background-color: var(--chillPink);}
+}
+
+h1::selection, h2::selection, h3::selection, h4::selection {
+  background-color: var(--navblack);
+}
+
+p {
+  padding: .5em;
+}
+
+p::selection {
+  background-color: var(--froggygreen);
+}
+.lPad {
+  background-color: var(--lpadgreen);
+  box-shadow: 0.5em 0.5em 0.1em #4297bc;
+  margin: 1em;
+  padding: .1em;
+  border-radius: 40em / 20em;
+  text-align: center;
+}
+
+/* max-width: 1000px; */
+/* margin: 3em auto; */
+body > .tmblr-iframe {
+  display: none !important;
+}
+
+.tmblr-iframe-pushdown {
+    padding-top: 0px !important;
+}

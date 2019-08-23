@@ -7,18 +7,24 @@
   <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
 </head>
 
-<body>
+<body onload="describeMe();">
   <header>
-    <img src="img/peach.png">
-    <nav>
-        <a id="header-title" href="index.html">ranunculus</a>
-      <div>
-      <a href="tblog.html">blog</a>
-      <a href="about.html">about</a>
-      <a href="contact.html">contact</a>
+    <div class="bannercontainer">
+      <div class="bannerimgbg"></div>
+      <img src="img/peach.png">
     </div>
+    <nav>
+      <a id="header-title" href="index.html">ranunculus</a>
+      <div>
+        <a href="tblog.html">blog</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+      </div>
     </nav>
-    <img src="img/peach.png">
+    <div class="bannercontainer">
+      <div class="bannerimgbg"></div>
+      <img src="img/peach.png">
+    </div>
   </header>
   <nav class="gallerynavbar">
     <a href="floral.html">
@@ -67,10 +73,10 @@
       </p>
     </div>
     <div class="column">
-      <h4>short story</h4>
-      <p>ribbit</p>
+      <h4>bio</h4>
+      <p>amelie letierce is a florist, artist, and <span id=tDescriptor></span> with a passion for sustainable living and all things botanical.</p>
     </div>
-  </footer>
+    <script src="js/describe_me.js"></script>
 </body>
 
 </html>
