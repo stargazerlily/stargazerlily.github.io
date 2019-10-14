@@ -4,7 +4,7 @@
 }
 
 .tumblr_posts {
-
+  margin-right: 3em;
 }
 
 .tumblr_post {
@@ -15,7 +15,7 @@
   background-color: var(--lpadgreen);
   box-shadow: 0.5em 0.5em 0.1em #4297bc;
   max-width: 1000px;
-  margin: 3em auto;
+  margin: 2em auto;
   padding: 7em;
   border-radius: 40em / 20em;
 }

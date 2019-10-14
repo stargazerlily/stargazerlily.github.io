@@ -1,7 +1,7 @@
 .lPad {
   background-color: var(--lpadgreen);
   box-shadow: 0.5em 0.5em 0.1em #4297bc;
-  margin: 1em;
+  /* margin: 1em; */
   padding: .1em;
   border-radius: 40em / 20em;
   text-align: center;

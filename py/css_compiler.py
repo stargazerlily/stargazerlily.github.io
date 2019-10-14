@@ -3,7 +3,8 @@ import shutil
 dir = {
 
     "master_styles":
-        ("colors",
+        ("body_header_footer",
+        "colors",
         "text_styles",
         "text_boxes"),
 

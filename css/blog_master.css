@@ -4,7 +4,7 @@
 }
 
 .tumblr_posts {
-
+  margin-right: 3em;
 }
 
 .tumblr_post {
@@ -15,7 +15,7 @@
   background-color: var(--lpadgreen);
   box-shadow: 0.5em 0.5em 0.1em #4297bc;
   max-width: 1000px;
-  margin: 3em auto;
+  margin: 2em auto;
   padding: 7em;
   border-radius: 40em / 20em;
 }
@@ -186,6 +186,48 @@ a {
 a:hover {
   color: #f6A623;
 }
+/* working dupe code */
+body {
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  color: #ffffff;
+  background-image: url(../img/Ocean_edit.gif);
+  background-color: var(--waterblue3);
+  font-family: 'Gaegu', sans-serif;
+  animation: waves 5s ease-in-out infinite alternate;
+}
+
+header a {
+  color: var(--titleTColor);
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+header a:hover {
+  color: var(--hoverTColor);
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 50vh; */
+  margin: 1em;
+  }
+
+  nav a, nav button {
+    letter-spacing: 0.1em;
+    font-weight: bold;
+  }
+
+footer h4 {
+  color: var(--titleTColor);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
 :root {
   --titleTColor: white;
   --hoverTColor: #ff9c8c;
@@ -211,15 +253,17 @@ h1::selection, h2::selection, h3::selection, h4::selection {
 
 p {
   padding: .5em;
+  line-height: 1.5;
+  color: var(--titleTColor);
 }
 
-p::selection {
+body::selection {
   background-color: var(--froggygreen);
 }
 .lPad {
   background-color: var(--lpadgreen);
   box-shadow: 0.5em 0.5em 0.1em #4297bc;
-  margin: 1em;
+  /* margin: 1em; */
   padding: .1em;
   border-radius: 40em / 20em;
   text-align: center;
