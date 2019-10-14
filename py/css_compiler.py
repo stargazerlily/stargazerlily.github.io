@@ -25,7 +25,7 @@ dir = {
 }
 
 for key in dir:
-    with open("css/" + key + ".css","wb") as write:
+    with open("css/" + key + ".css","wt") as write:
         for file in dir[key]:
-            with open("css/" + file + ".css","rb") as read:
+            with open("css/" + file + ".css","rt") as read:
                 shutil.copyfileobj(read, write)
