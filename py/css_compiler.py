@@ -9,19 +9,19 @@ dir = {
         "text_boxes"),
 
     "index_master":
-        ("style_index",
-        "master_styles"),
+        ("master_styles",
+        "style_index"),
 
     "floral_master":
-        ("style_floral",
-        "master_styles",
+        ("master_styles",
         "t_image",
-        "tumblrfix"),
+        "tumblrfix",
+        "style_floral"),
 
     "blog_master":
-        ("style_tblog",
-        "master_styles",
-        "tumblrfix")
+        ("master_styles",
+        "tumblrfix",
+        "style_tblog")
 }
 
 for key in dir:
