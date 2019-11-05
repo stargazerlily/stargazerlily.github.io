@@ -4,6 +4,10 @@
   background-color: var(--lpadgreen);
 }
 
+body{
+  background-image: url(../img/Ocean_edit.gif);
+}
+
 #header-title {
   /* margin-top: .5em; */
   margin-bottom: 0;
