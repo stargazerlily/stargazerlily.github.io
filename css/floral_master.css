@@ -122,7 +122,7 @@ body > .tmblr-iframe {
 }
 
 body {
-  background-image: url(../img/sakura-flower.gif);
+  background-image: url(../img/sakura-flower.gif) !important;
 }
 
 #header-title {
