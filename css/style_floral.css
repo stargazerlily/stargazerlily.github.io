@@ -4,7 +4,7 @@
   background-color: var(--lpadgreen);
 }
 
-body {
+body.floralbg {
   background-image: url(../img/sakura-flower.gif) !important;
 }
 
