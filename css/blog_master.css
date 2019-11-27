@@ -153,12 +153,12 @@ header a:hover {
   color: var(--hoverTColor);
 }
 
-header nav {
+/* header nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50vh;
-}
+} */
 
 .lpadheader {
   display: block;
