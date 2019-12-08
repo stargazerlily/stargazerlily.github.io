@@ -55,7 +55,7 @@ footer h4 {
 }
 
 @keyframes waves {
-  from {background-color: var(--waterblue3);}
+  from {background-color: #57bbce;}
   to {background-color: var(--chillPink);}
 }
 
@@ -64,6 +64,7 @@ h1::selection, h2::selection, h3::selection, h4::selection {
 }
 
 p {
+  font-size: 1.25em;
   padding: .5em;
   line-height: 1.5;
   color: var(--titleTColor);
@@ -75,10 +76,11 @@ body::selection {
 .lPad {
   background-color: var(--lpadgreen);
   box-shadow: 0.5em 0.5em 0.1em #4297bc;
-  /* margin: 1em; */
+  margin: 1em;
   padding: .1em;
   border-radius: 40em / 20em;
   text-align: center;
+  font-size: 1.25em;
 }
 
 /* max-width: 1000px; */
@@ -109,8 +111,8 @@ nav {
   margin-top: 0;
 }
 
-nav li {
-  display: inline;
+nav div {
+  display: flex;
   padding-left: 20px;
 }
 .lpadcontainer {

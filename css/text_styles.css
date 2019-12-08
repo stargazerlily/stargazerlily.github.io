@@ -4,6 +4,7 @@ h1::selection, h2::selection, h3::selection, h4::selection {
 }
 
 p {
+  font-size: 1.25em;
   padding: .5em;
   line-height: 1.5;
   color: var(--titleTColor);

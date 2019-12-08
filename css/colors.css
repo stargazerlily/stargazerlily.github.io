@@ -13,6 +13,6 @@
 }
 
 @keyframes waves {
-  from {background-color: var(--waterblue3);}
+  from {background-color: #57bbce;}
   to {background-color: var(--chillPink);}
 }

@@ -24,8 +24,8 @@ nav {
   margin-top: 0;
 }
 
-nav li {
-  display: inline;
+nav div {
+  display: flex;
   padding-left: 20px;
 }
 .lpadcontainer {
