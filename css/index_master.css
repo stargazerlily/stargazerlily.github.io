@@ -103,7 +103,7 @@ header {
   float: left; */
   margin: .5em;
   margin-bottom: 0;
-  font-size: 4em;
+  font-size: 12vw;
   font-weight: bold;
 }
 nav {
@@ -112,7 +112,6 @@ nav {
 }
 
 nav div {
-  display: flex;
   padding-left: 20px;
 }
 .lpadcontainer {
@@ -177,4 +176,11 @@ a {
 }
 a:hover {
   color: var(--hoverTColor);
+}
+
+.fallingLPads {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }

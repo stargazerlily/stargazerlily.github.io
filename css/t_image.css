@@ -1,12 +1,12 @@
 
 .tumblr_photo_post {
-  margin: 1rem;
+  margin: 1.2rem;
 }
 
 .tumblr_photo {
   border-radius: 25%;
   max-width: 100%;
-  box-shadow: 0px 0px 0px 4px var(--navblack); 
+  box-shadow: 0px 0px 0px 4px var(--navblack);
 }
 
 .tumblr_posts {
