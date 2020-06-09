@@ -224,7 +224,7 @@ nav {
   justify-content: space-around;
   text-align: center;
   letter-spacing: 0.1em;
-
+  z-index: 2;
   background-color: var(--navblack);
 }
 

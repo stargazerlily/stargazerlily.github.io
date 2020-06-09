@@ -12,6 +12,12 @@ dir = {
         ("master_styles",
         "style_index"),
 
+    "art_master":
+        ("master_styles",
+        "t_image",
+        "tumblrfix",
+        "style_floral"),
+
     "floral_master":
         ("master_styles",
         "t_image",
