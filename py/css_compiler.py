@@ -22,11 +22,13 @@ dir = {
         ("master_styles",
         "t_image",
         "tumblrfix",
+        "navbar",
         "style_floral"),
 
     "blog_master":
         ("master_styles",
         "tumblrfix",
+        "navbar",
         "style_tblog")
 }
 
