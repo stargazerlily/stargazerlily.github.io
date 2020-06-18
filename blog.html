@@ -3,70 +3,33 @@
 
 <head>
   <title>little frog</title>
+  <link rel="shortcut icon" type="image/x-icon" href="ico/anemone.ico">
   <link rel="stylesheet" type="text/css" href="css/blog_master.css">
   <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
 </head>
 
-<body>
+<body onload="describeMe();">
   <header>
-    <div class="lpadheader">
-      <a id="header-title" href="index.html">ranunculus</a>
-      <div id="header-image">
-        <a href="index.html">
-          <img src="img/S2.gif" title="S">
-          <img src="img/O2.gif" title="O">
-          <img src="img/G2.gif" title="G">
-          <img src="img/A2.gif" title="A">
-          <img src="img/Y2.gif" title="Y">
-      </div>
-      <nav>
-        <a href="about.html">about</a>
-        <a href="contact.html">contact</a>
+      <nav class="lPad">
+        <a id="header-title" href="index.html">ranunculus</a>
+        <div>
+          <a href="floral.html">floral</a>
+          <!-- <a href="about.html">about</a>
+          <a href="contact.html">contact</a> -->
+        </div>
       </nav>
-    </div>
   </header>
+  <nav class="gallerynavbar">
+    <a href="blog.html">
+      <h1>blog</h1>
+    </a>
+    <a href="blog/personal.html">personal</a>
+    <a href="blog/recipes.html">recipes</a>
+    <a href="blog/herbalism.html">herbalism</a>
+    <a href="blog/gardening.html">gardening</a>
+  </nav>
   <main>
-    <div class="lpadcontainer">
-      <article>
-        <div class="post-author">
-          <img src="img/twinkle.gif">
-          <span>star</span>
-        </div>
-        <p class="post-date">Today</p>
-        <h3 class="post-title">kero</h3>
-        <div class="post-content">
-          <p>alright heres my serious blog post.  im am such an emo little kid.  i cant believe that everybody buys into my selfish little game.<br>
-          <img src="img/sworddrapped.gif" title="G"><br>
-          i cant believe i get away with it.</p>
-        </div>
-      </article>
-    </div>
-    <div class="lpadcontainer">
-      <article>
-        <div class="post-author">
-          <img src="img/twinkle.gif">
-          <span>star</span>
-        </div>
-        <p class="post-date">Yesterday</p>
-        <h3 class="post-title">karo</h3>
-        <div class="post-content">
-          <p>karo karo karo karo</p>
-        </div>
-      </article>
-    </div>
-    <div class="lpadcontainer">
-      <article>
-        <div class="post-author">
-          <img src="img/twinkle.gif">
-          <span>star</span>
-        </div>
-        <p class="post-date">Today</p>
-        <h3 class="post-title">kero</h3>
-        <div class="post-content">
-          <p>kero <b>kero</b> <strong>kero</strong> kero</p>
-        </div>
-      </article>
-    </div>
+    <script type="text/javascript" src="https://ranafrog.tumblr.com/js/?tag=blog&num=50"></script>
   </main>
   <footer>
     <div class="container">
@@ -79,11 +42,12 @@
         </p>
       </div>
       <div class="column">
-        <h4>short story</h4>
-        <p>ribbit</p>
+        <h4>bio</h4>
+        <p>amelie letierce is a florist, artist, and <span id=tDescriptor></span> with a passion for sustainable living and all things botanical.</p>
       </div>
     </div>
   </footer>
+  <script src="js/describe_me.js"></script>
 </body>
 
 </html>

@@ -17,7 +17,14 @@ pageNexus = {
         "neutral": "neutral",
         "white": "white"
     },
-    
+
+    "blog": {
+        "personal": "personal",
+        "recipes": "recipes",
+        "herbalism": "herbalism",
+        "gardening": "gardening"
+    },
+
     "art": {
         "pen": "pen",
         "posca": "posca"
