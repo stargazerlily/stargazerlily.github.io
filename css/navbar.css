@@ -16,6 +16,7 @@
   letter-spacing: 0.1em;
   z-index: 2;
   background-color: var(--navblack);
+  border-radius: 40em / 20em;
 }
 
 .gallerynavbar h1:first-child {

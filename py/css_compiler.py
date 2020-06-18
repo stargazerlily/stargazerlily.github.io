@@ -16,6 +16,7 @@ dir = {
         ("master_styles",
         "t_image",
         "tumblrfix",
+        "navbar",
         "style_floral"),
 
     "floral_master":

@@ -35,6 +35,33 @@ header nav {
     font-weight: bold;
   }
 
+  footer {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1em 0;
+    background-color: #2f2f2f;
+  }
+
+  .column {
+    display: inline-block;
+    min-width: 150px;
+    vertical-align: top;
+  }
+
+  a {
+    text-decoration: none;
+    color: #1abc9c;
+  }
+
+  footer a:hover {
+    color: #f6A623;
+  }
+
 footer h4 {
   color: var(--titleTColor);
   text-transform: uppercase;
@@ -57,6 +84,10 @@ footer h4 {
 @keyframes waves {
   from {background-color: #57bbce;}
   to {background-color: var(--chillPink);}
+}
+
+h1, h2, h3, h4 {
+  color: #006400;
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection {
@@ -135,6 +166,7 @@ body > .tmblr-iframe {
   letter-spacing: 0.1em;
   z-index: 2;
   background-color: var(--navblack);
+  border-radius: 40em / 20em;
 }
 
 .gallerynavbar h1:first-child {
@@ -358,32 +390,7 @@ h1, h2, h3, h4 {
   height: 12em;
 }
 
-footer {
-  position: absolute;
-  z-index: 1;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
-  padding: 1em 0;
-  background-color: #2f2f2f;
-}
 
-.column {
-  display: inline-block;
-  min-width: 150px;
-  vertical-align: top;
-}
-
-a {
-  text-decoration: none;
-  color: #1abc9c;
-}
-
-footer a:hover {
-  color: #f6A623;
-}
 
 .button {
   display: inline-block;

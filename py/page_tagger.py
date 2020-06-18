@@ -39,6 +39,6 @@ for id, tags in pageNexus.items():
         print("init: " + id + "/" + key)
         shutil.copy(temp, dir + key + ".html")
         with open(dir + key + ".html") as f:
-            newText=f.read().replace('#', tags[key])
+            newText=f.read().replace('#~~', tags[key])
         with open(dir + key + ".html", "w") as f:
             f.write(newText)
