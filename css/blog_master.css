@@ -17,6 +17,7 @@ header a {
 
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  padding: .2em;
 }
 header a:hover {
   color: var(--hoverTColor);
@@ -26,7 +27,6 @@ header nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* width: 50vh; */
   margin: 1em;
   }
 
@@ -283,7 +283,8 @@ body > .tmblr-iframe {
   box-shadow: 0.5em 0.5em 0.1em #4297bc;
   max-width: 1000px;
   margin: 2em auto;
-  padding: 7em;
+  padding: 5em;
+  padding-bottom: 7em;
   border-radius: 40em / 20em;
 }
 
@@ -291,14 +292,21 @@ body > .tmblr-iframe {
   font-size: 3em;
 }
 
+/* .tumblr_body {
+  padding: 2em;
+} */
+
 .tumblr_body ul {
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  list-style: inside;
+    padding: unset;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    list-style: inside;
 }
 
 .tumblr_body img {
+  max-width: 100%;
+  height: auto;
   border-radius: 5em / 5em;
 }
 
@@ -327,25 +335,11 @@ header {
   overflow-x: hidden;
 }
 header a {
-  padding: .1em;
+
   text-decoration: none;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  /* background-color: var(--lpadgreen); */
-  color: var(--titleTColor);
   border-radius: 40em / 30em;
-}
-header a:hover {
-  color: var(--hoverTColor);
-}
-
-header nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50vh;
-  background-color: var(--lpadgreen);
-  box-shadow: 0.5em 0.5em 0.1em #4297bc;
 }
 
 .lpadheader {
