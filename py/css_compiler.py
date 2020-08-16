@@ -6,7 +6,8 @@ dir = {
         ("body_header_footer",
         "colors",
         "text_styles",
-        "text_boxes"),
+        "text_boxes",
+        "themeButton"),
 
     "index_master":
         ("master_styles",

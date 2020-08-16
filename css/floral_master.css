@@ -81,13 +81,26 @@ footer h4 {
 
 }
 
+@media (prefers-color-scheme: dark) {
+  --titleTColor: black;
+  --hoverTColor: #ff9c8c;
+  /* --hoverTColor: #ff9e95; */
+  --chillPink: #ffeee0;
+  --lpadgreen: #00cd6f;
+  --waterblue: #1abc9c;
+  --waterblue2: #2aafd5;
+  --waterblue3: #46cff6;
+  --froggygreen: #006400;
+  --navblack: #333;
+}
+
 @keyframes waves {
   from {background-color: #57bbce;}
   to {background-color: var(--chillPink);}
 }
 
 h1, h2, h3, h4 {
-  color: #006400;
+  color: var(--froggygreen);
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection {
@@ -116,6 +129,31 @@ body::selection {
 
 /* max-width: 1000px; */
 /* margin: 3em auto; */
+button#theme-toggle {
+  background-color: transparent;
+  opacity: .5;
+  color: white;
+  float: right;
+  margin: 1em;
+  position: sticky;
+  background-image: url(../img/nightmode.png);
+  /* background-color: black;
+  color: white; */
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  border: none; padding: 20px;
+  width: 70px;
+  height: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button#theme-toggle:hover {
+  opacity: 1;
+  width: 75px;
+  height: 75px;
+}
 
 .tumblr_photo_post {
   margin: 1.2rem;

@@ -12,6 +12,19 @@
 
 }
 
+@media (prefers-color-scheme: dark) {
+  --titleTColor: black;
+  --hoverTColor: #ff9c8c;
+  /* --hoverTColor: #ff9e95; */
+  --chillPink: #ffeee0;
+  --lpadgreen: #00cd6f;
+  --waterblue: #1abc9c;
+  --waterblue2: #2aafd5;
+  --waterblue3: #46cff6;
+  --froggygreen: #006400;
+  --navblack: #333;
+}
+
 @keyframes waves {
   from {background-color: #57bbce;}
   to {background-color: var(--chillPink);}
