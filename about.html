@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
 <head>
   <title>little frog</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="ico/anemone.ico">
+  <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/style_about.css">
+  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.ranuncul.us/"/>
+  <meta property="og:title" content="little frog"/>
+  <meta property="og:description" content="amelie letierce is a florist, artist, and musician with a passion for sustainable living and all things botanical."/>
+  <meta property="og:image" content="https://ranuncul.us/img/LPad.gif"/>
+  <meta property="og:image:type" content="image/gif"/>
+
 </head>
-<body>
+
+<body onload="describeMe();">
+  <!-- <div class="fallingLPads">
+    <img src="img/LPad.gif">
+  </div> -->
   <header>
-    <div class="container">
-      <a id="header-title" href="index.html">ranunculus</a>
-      <div id="header-image">
-        <a href="index.html">
-        <img src="S2.gif" title="S">
-        <img src="O2.gif" title="O">
-        <img src="G2.gif" title="G">
-        <img src="A2.gif" title="A">
-        <img src="Y2.gif" title="Y">
-      </div>
-      <nav>
-        <ul>
-          <li><a href="about.html">about</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
+      <nav class="lPad">
+        <a id="header-title" href="/">ranunculus</a>
+        <div>
+          <a href="floral.html">floral</a>
+          <a href="blog.html">blog</a>
+          <!-- <a href="about.html">about</a>
+          <a href="contact.html">contact</a> -->
+        </div>
       </nav>
-    </div>
   </header>
+  <div id="themeIcon">
+    <button id="theme-toggle"></button>
+  </div>
   <main>
-    <div class="container">
       <div class="about">
         <div class="about-author">
-          <img src="swink.gif" title="spook">
+          <img src="img/hiking_edit.jpg" id="profile_pic" title="amelie">
+          <img src="img/forest.jpg" id="forest_pic" title="nice background">
+          <img src="img/lilypads.jpg" id="lpad_pic" title="nice background">
         </div>
-        <h1 class="about-title">i'm working on it</h1>
+        <h1 class="about-title">who is she?</h1>
         <div class="about-content">
-          <p> promise.</p>
+          <p>florist, artist, and <span id=tDescriptor></span> amelie letierce!  this website is a work in progress that i hope to soon establish as a working portfolio and place to have a bit of fun.  the rest of my bio goes here</p>
         </div>
       </div>
-    </div>
   </main>
-  <footer>
-    <div class="container">
-      <div class="column">
-        <h4>my twinks</h4>
-        <p>
-          <a href="https://www.cameronsworld.net/">cant clicky :(</a>
-          <br>
-          <a href="https://www.google.com">goggle</a>
-        </p>
-      </div>
-      <div class="column">
-        <h4>short story</h4>
-        <p>ribbit</p>
-      </div>
-    </div>
-  </footer>
+
+  <script src="js/describe_me.js"></script>
+  <script src="js/themes.js"></script>
 </body>
+
 </html>

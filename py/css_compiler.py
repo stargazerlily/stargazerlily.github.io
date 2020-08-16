@@ -13,6 +13,10 @@ dir = {
         ("master_styles",
         "style_index"),
 
+    # "about_master":
+    #     ("master_styles",
+    #     "style_about"),
+
     "art_master":
         ("master_styles",
         "t_image",
