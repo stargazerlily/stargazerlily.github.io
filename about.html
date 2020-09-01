@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 
+<script type="text/javascript">
+  window.addEventListener('scroll', () => {
+    document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight) * -1);
+  }, false);
+</script>
+
 <head>
   <title>little frog</title>
   <link rel="shortcut icon" type="image/x-icon" href="ico/anemone.ico">
@@ -16,7 +22,7 @@
 
 </head>
 
-<body onload="describeMe();">
+<body>
   <!-- <div class="fallingLPads">
     <img src="img/LPad.gif">
   </div> -->
@@ -36,19 +42,28 @@
   </div>
   <main>
       <div class="about">
-        <div class="about-author">
-          <img src="img/hiking_edit.jpg" id="profile_pic" title="amelie">
-          <img src="img/forest.jpg" id="forest_pic" title="nice background">
-          <img src="img/lilypads.jpg" id="lpad_pic" title="nice background">
+        <div class="imageCollage">
+          <img src="img/collage.png" id="profile_pic" title="amelie">
+          <!-- <img src="img/shadow.jpg" id="pic2" title="shan"> -->
+          <img src="img/leaf.png" id="leaf_pic">
+          <img src="img/chestnutLeaf.png" id="chestnutLeaf_pic">
+          <img src="img/pumpkin.png" id="pumpkin_pic">
+          <img src="img/mushroom.jpg" id="mushroom_pic">
+          <img src="img/gerbs/gerb1.png" id="gerb1_pic">
+          <img src="img/gerbs/gerb2.png" id="gerb2_pic">
+          <img src="img/gerbs/gerb3.png" id="gerb3_pic">
         </div>
+        <h1 class="about-title">Amelie?</h1>
         <h1 class="about-title">who is she?</h1>
-        <div class="about-content">
-          <p>florist, artist, and <span id=tDescriptor></span> amelie letierce!  this website is a work in progress that i hope to soon establish as a working portfolio and place to have a bit of fun.  the rest of my bio goes here</p>
+        <div class="about-box" id="aboutBox1">
+          <p>florist, artist, musician, et cetera.  student of botanical science and sustainable agriculture.</p>
+        </div>
+        <div class="about-box" id="aboutBox2">
+          <p>lorem ipsum, mind is dull.  make my textbox very full!!! lorem ipsum, mind is dull.  make my textbox very full!!! lorem ipsum, mind is dull.  make my textbox very full!!! lorem ipsum, mind is dull.  make my textbox very full!!! lorem ipsum, mind is dull.  make my textbox very full!!! lorem ipsum, mind is dull.  make my textbox very full!!!</p>
         </div>
       </div>
   </main>
 
-  <script src="js/describe_me.js"></script>
   <script src="js/themes.js"></script>
 </body>
 

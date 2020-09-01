@@ -1,5 +1,32 @@
 body {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-image: url(../img/paper.jpg);
+  /* max-width: 100vw; */
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: darkolivegreen;
+  box-shadow: 1.5em -.2em indianred;
+  border-radius: 0 0 50em 0;
+  max-width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+nav a {
+font-size: 2em;
+font-weight: bold;
+color: white;
+text-decoration: none;
+padding: .5em;
+margin: .5em;
+}
+
+#themeIcon {
+  display: none;
 }
 
 LPad {
@@ -7,51 +34,177 @@ LPad {
 
 }
 
+
+
 #profile_pic {
-  border-radius: 50%;
-  /*   max-width: -webkit-fill-available; */
-  max-width: 30em;
-  left: 0;
+  max-width: 55em;
+  left: -2em;
+  top: -.5em;
   position: absolute;
   z-index: -1;
-  float:left;
-  box-shadow: 10px 5px 0px white;
 }
 
-#forest_pic {
-  border-radius: 50%;
-  max-width: 30em;
-  position: absolute;
-  left: 22em;
-  top: 18em;
+#pic2 {
+ max-width: 50%;
+}
+
+#leaf_pic {
   z-index: -2;
-  box-shadow: 10px 5px 0px white;
-}
-
-#lpad_pic {
-  border-radius: 50%;
-  max-width: 70%;
   position: absolute;
-  left: 30em;
-  top: 2em;
-  z-index: -3;
-  box-shadow: 10px 5px 0px white;
+  left: 40em;
+  top: 0;
+  animation: slide 2s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
 
-.about-title {
+#chestnutLeaf_pic {
+  z-index: -3;
+  position: absolute;
+  left: 52em;
+  top: -9em;
+  transform: rotatez(45deg);
+  animation: slide 1.5s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes slide {
+  to {
+    left: 100em;
+    top: 100em;
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+#pumpkin_pic {
+  z-index: -4;
+  position: absolute;
+  left: 2em;
+  top: 71em;
+}
+
+#mushroom_pic {
+  max-width: 25em;
+  border-radius: 5em;
+  z-index: -4;
+  position: absolute;
+  left: 46em;
+  top: 57em;
+}
+
+#gerb1_pic {
+  z-index: -3;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -15em;
+  top: 27em;
+  animation: rotate 10s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+#gerb2_pic {
+  z-index: -2;
+  position: absolute;
+  left: 40em;
+  top: 30em;
+  animation: rotate2 5s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+#gerb3_pic {
+  z-index: -3;
+  position: absolute;
+  left: 8em;
+  top: -13em;
+  animation: rotate 5s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+/* .about-title {
   text-align: center;
+  font-size: 3.5em;
+  color: white;
+  text-shadow: .1em .1em indianred;
+  position: absolute;
+  top: 1.3em;
+  left: 3.5em;
+} */
+
+.about-title:nth-child(2) {
+  text-align: center;
+  font-size: 10em;
+  color: antiquewhite;
+  text-shadow: 0.05em 0.05em black;
+  position: absolute;
+  top: -0.65em;
+  left: .5em;
+}
+
+/* .about-title:nth-child(3) {
+  text-align: center;
+  font-size: 2em;
   color: white;
   position: absolute;
-  top: 6em;
-  left: 3em;
+  top: 1.5em;
+  left: 6em;
+  text-shadow: black;
+} */
+
+.about-title {
+  color: antiquewhite;
+  text-align: center;
+  font-size: 7em;
+  /* color: black; */
+  text-shadow: 0.05em 0.05em black;
+  position: absolute;
+  top: 0.5em;
+  left: 5.8em;
 }
 
-.about-content {
+.about-box {
 border-radius: .5em;
 background: rosybrown;
 text-align: center;
+font-size: 1.5em;
+padding: 1em;
 max-width: 20em;
 position: absolute;
-top: 28em;
-left: 15em;
+
+}
+
+#aboutBox1 {
+  top: 16em;
+  left: 9em;
+}
+
+#aboutBox2 {
+  z-index: -3;
+  top: 35em;
+  left: 9em;
 }
