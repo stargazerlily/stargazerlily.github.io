@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 body {
-  /* background-color: antiquewhite; */
+  background-color: antiquewhite;
   background-image: url(../img/paper.jpg);
-  /* max-width: 100vw; */
+  max-width: 100%;
+  /* height: 100em; */
   overflow-x: hidden;
 }
 
@@ -34,7 +38,14 @@ LPad {
 
 }
 
+.about {
+  position: relative;
+  width: 100%;
+}
 
+.imageCollage {
+  position: relative;
+}
 
 #profile_pic {
   max-width: 55em;
@@ -76,7 +87,7 @@ LPad {
 @keyframes slide {
   to {
     left: 100em;
-    top: 100em;
+    top: 60em;
     transform: rotate(-360deg);
   }
 }
@@ -146,45 +157,33 @@ LPad {
   animation-fill-mode: both;
 }
 
-/* .about-title {
+.about-title {
+  font-family: 'Rock Salt', cursive;
   text-align: center;
-  font-size: 3.5em;
-  color: white;
-  text-shadow: .1em .1em indianred;
   position: absolute;
-  top: 1.3em;
-  left: 3.5em;
-} */
-
-.about-title:nth-child(2) {
-  text-align: center;
-  font-size: 10em;
-  color: antiquewhite;
-  text-shadow: 0.05em 0.05em black;
-  position: absolute;
-  top: -0.65em;
-  left: .5em;
+  background-color: #3a5a1dc4;
+  border-radius: 75%;
 }
 
-/* .about-title:nth-child(3) {
-  text-align: center;
-  font-size: 2em;
-  color: white;
-  position: absolute;
-  top: 1.5em;
-  left: 6em;
-  text-shadow: black;
-} */
-
-.about-title {
-  color: antiquewhite;
-  text-align: center;
-  font-size: 7em;
-  /* color: black; */
+.titleText {
+  font-size: 9em;
+  line-height: 1.2em;
+  color: gold;
   text-shadow: 0.05em 0.05em black;
   position: absolute;
-  top: 0.5em;
-  left: 5.8em;
+  top: -0.55em;
+  left: .5em;
+  z-index: 1;
+}
+
+.titleText:nth-child(2) {
+  font-size: 6em;
+  line-height: 1em;
+  color: goldenrod;
+  text-shadow: 0.05em 0.05em black;
+  position: absolute;
+  top: .6em;
+  left: 2em;
 }
 
 .about-box {
@@ -194,6 +193,7 @@ LPad {
 font-size: 1.5em;
 padding: 1em;
 max-width: 20em;
+min-width: 15em;
 position: absolute;
 
 }
