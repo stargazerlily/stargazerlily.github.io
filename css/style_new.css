@@ -231,24 +231,28 @@ footer {
   }
   .postHeader * {
     padding: .2em;
-}
-.postHeader h1{
-  font-size: .8em;
-  padding-left: .5em;
-  padding-right: .5em;
-}
-.postHeader .date{
-  font-size: .6em;
-  margin: 0;
-  padding-left: .5em;
-  padding-right: .5em;
-}
-.post p {
-  font-size: .75em;
-  margin: 0;
-  padding-block: .5em;
-}
-img {
-  max-width: 70%;
-}
+  }
+  .postHeader h1{
+    font-size: .8em;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  .postHeader .date{
+    font-size: .6em;
+    margin: 0;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  .post p {
+    font-size: .75em;
+    margin: 0;
+    padding-block: .5em;
+  }
+  .post aside {
+    width: 95%;
+    margin: 0;
+  }
+  img {
+    max-width: 70%;
+  }
 }
